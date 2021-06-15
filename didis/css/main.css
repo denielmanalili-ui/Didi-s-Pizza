@@ -1,0 +1,94 @@
+.default_color {
+    background-color: #FF8702;
+}
+
+.black{
+    background-color: #000;
+}
+
+.black_10{
+    background-color: #ddd;
+}
+
+.black_30{
+    background-color: #aaa;
+}
+
+.black_50{
+    background-color: #666;
+}
+
+.black_70{
+    background-color: #444;
+}
+
+.black_90{
+    background-color: #222;
+}
+
+.banner_logo {
+    width: 100px;
+    float: left;
+    vertical-align: baseline;
+    /* margin: -80px; */
+}
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.center_align{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.footer{
+    padding: 10px;
+    width: 100%;
+    background-color: #000;
+    position: fixed;
+    bottom: 0;
+}
+
+.store_img{
+    padding: 20px;
+    height: 300px;
+}
+
+/* Nav bar */
+ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    overflow: hidden;
+    background-color: #FF8702;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.active, li a:hover {
+    background-color: #fff;
+}
+
+tr, td, th{
+    padding: 10px;
+    margin: 10px
+    border: 5px;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
